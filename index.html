@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafe bar</title>
+    <!-- link font-awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- link css external -->
+    <link rel="stylesheet" href="css\style.css">
+    <!-- link swipper css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <!-- favicon -->
+    <link rel="icon" href="image\ChatGPT_Image_Oct_18__2025__09_53_25_PM-removebg-preview.png" type="image/png">
+</head>
+<body>
+    <!-- header navbar -->
+    <header>
+    <nav class="navbar section-content">
+        <a href="#" class="tombol">
+        <h2 class="logo-text">☕Cafe Akbar</h2>   
+        </a>
+    <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a href="#testimoni" class="nav-link">Testimoni</a>
+        </li>
+         <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+        </li>
+    </ul>
+
+    <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+    
+    </header>
+
+    <main>
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                <h2 class="title">Cafe Akbar</h2>
+                <h3 class="subtitle">Make your day great with kafe akbar!</h3>
+                <p class="description">Welcome to ☕Cafe Akbar. Where every bean tells a story and every cup sparks joy</p>
+                <div class="buttons">
+                <a href="#" class="button order-now">order now!</a>
+                <a href="#" class="button contact-us">contact us</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img id="logo" src="image\Gemini_Generated_Image_y5qd1jy5qd1jy5qd-removebg-preview.png" alt="hero image">
+            </div>
+        </section>   
+
+        <!-- about section -->
+
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="image\ChatGPT Image Oct 18, 2025, 09_53_25 PM.png" alt="about" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At ☕Cafe Akbar, we believe that coffee is more than just a beverage; it's an experience. Founded in 2020, our cafe has been dedicated to serving high-quality coffee made from ethically sourced beans. Our skilled baristas craft each cup with care, ensuring that every sip is a delight. Whether you're looking for a cozy spot to relax or a vibrant place to connect with friends, ☕Cafe Akbar is your go-to destination for great coffee and warm hospitality.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+
+        <!-- menu section -->
+         <section class="menu-section" id="menu">
+            <h2 class="section-title">our menu</h2>
+            <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="image\nasi goreng.png" alt="nasi goreng koh red" class="menu-image">
+                    <h3 class="name">nasi goreng</h3>
+                    <p class="text">fires up your enthusiasm to reach the highest level in life</p>
+                </li>
+                
+                <li class="menu-item">
+                    <img src="image\americano.png" alt="americano" class="menu-image">
+                    <h3 class="name">americano</h3>
+                    <p class="text">Americano keeps your life continuously productive</p>
+                </li>
+                
+                <li class="menu-item">
+                    <img src="image\mie_ayam.png" alt="mi ayam" class="menu-image">
+                    <h3 class="name">mie ayam katsu</h3>
+                    <p class="text">With a single sip, makes the burdens of your life disappear</p>
+                </li>
+                
+                <li class="menu-item">
+                    <img src="image\bihun.png" alt="bihun goreng" class="menu-image">
+                    <h3 class="name">bihun goreng</h3>
+                    <p class="text">keep your life moving forward with bihun goreng</p>
+                </li>
+                
+                <li class="menu-item">
+                    <img src="image\ricebowl.png" alt="ricebowl" class="menu-image">
+                    <h3 class="name">rice bowl teriyaki</h3>
+                    <p class="text">get rid of your laziness by rice bowl</p>
+                </li>
+                
+                <li class="menu-item">
+                    <img src="image\steak.png" alt="steak akbarrr" class="menu-image">
+                     <h3 class="name">steak bar</h3>
+                <p class="text">Its chewiness keeps you feeling full for a long time!</p>
+                </li>
+            </ul>
+            </div>
+         </section>
+
+         <!-- testimoni section -->
+         <section class="testimoni-section" id="testimoni">
+            <h2 class="section-title">Testimoni</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimoni-list swiper-wrapper">
+                            <li class="testimoni swiper-slide" >
+                                <img src="image\testimoni_3-6.jpeg" alt="user" class="user-image">
+                                <h3 class="name">evan mutasyam</h3>
+                                <i class="feedback">wah tempatnya bagus, ada api apinya. kopinya enak banget lagi</i>
+                            </li>
+                            <li class="testimoni swiper-slide" >
+                                <img src="image\testimoni_3-6.jpeg" alt="user" class="user-image">
+                                <h3 class="name">Rama Wahyu Kusuma</h3>
+                                <i class="feedback">gila! Kemaren gua nongkrong disini adem banget suasanya!</i>
+                            </li>
+                            <li class="testimoni swiper-slide" >
+                                <img src="image\testimoni_3-6.jpeg" alt="user" class="user-image">
+                                <h3 class="name">Arya dharma Noor</h3>
+                                <i class="feedback">Makanan disni enak enak! kemaren gua ngedate sama pacar gua kenyang banget makan disini!</i>
+                            </li>
+                            <li class="testimoni swiper-slide" >
+                                <img src="image\testimoni_3-6.jpeg" alt="user" class="user-image">
+                                <h3 class="name">Muhammad Ilham Firmansyah</h3>
+                                <i class="feedback">sofar so good sih! buat ngegambar jadi lebih enak karna ada ac-nya , suasananya bagus bgt ada sedikit percikan apinya!</i>
+                            </li>
+                            <li class="testimoni swiper-slide" >
+                                <img src="image\testimoni_3-6.jpeg" alt="user" class="user-image">
+                                <h3 class="name">Muhammad Alvino Oktaviano</h3>
+                                <i class="feedback">Wifinya kenceng! bisa makan sambil baca manga ini mah, sambil ngeliat my bini hehehe.</i>
+                            </li>
+                            <li class="testimoni swiper-slide" >
+                                <img src="image\testimoni_3-6.jpeg" alt="user" class="user-image">
+                                <h3 class="name">Mulyono Bambang wijaksono</h3>
+                                <i class="feedback">Tempatnya bebas rokok sih , cocok buat main catur , tapi lumayan mahal aja hehehe. Btw sayur sayur apa yang susah move on?jawabannya bayam bayam dirimu , xixixixixi.</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-slide-button swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>      
+                    </div>
+                </div>
+            </div>
+         </section>
+
+       
+
+        <!-- gallery section -->
+         <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="image\gallery_1.png" alt="Gallery" class="gallery-image"  style="width:350px">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="image\Gallery_2.png" alt="Gallery" class="gallery-image" style="width:350px;">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="image\Gallery_3.png" alt="Gallery" class="gallery-image" style="width:350px">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="image\Gallery_4.png" alt="Gallery" class="gallery-image" style="width:350px">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="image\Gallery _5.png" alt="Gallery" class="gallery-image" style="width:350px">
+                    </li>
+                     <li class="gallery-item">
+                        <img src="image\Gallery_6.png" alt="Gallery" class="gallery-image" style="width:350px">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- contact section -->
+         <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123 Campsite Avanue, Wildernes, CA 98765</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>info@cafeakbar.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(123) 456-78909</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Saturday: 06:30 AM - 09:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: Close</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.w3school.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Masukkan nama"   class="form-input" required>
+                    <input type="email" placeholder="Masukkan email"   class="form-input" required>
+                    <textarea placeholder="Masukkan pesan" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+         </section>
+
+         <!-- footer section -->
+         <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">@ 2025 Cafe Shop</p>
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+                </div> 
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">privacy policy</a>
+                    <spaan class="separator">•</spaan>
+                    <a href="#" class="policy-link">refund policy</a>
+                </p>
+            </div>
+           
+         </footer>
+    </main>
+
+    <!-- link js swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- link costum script -->
+    <script src="js\script.js"></script>
+</body>
+</html>
